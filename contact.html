@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Candle Burning</title>
+    <meta name="author" content="Erandi, Julia, Juliana, Rohit">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/candles-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img src="images/candles-logo.png" alt="CSS Candles Logo" width="80" height="80">
+          </a>
+          <h1 class="store-name">Candle Burning</h1>
+        </div>
+        <nav class="main-nav">
+          <button class="mobile-menu" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--MAIN  -->
+    <main>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>Have any questions or suggestions? We’d love to hear from you! Fill out the form below, and we’ll get back to you as soon as possible.</p>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <div class="footer-about">
+            <h3>Candle Burning</h3>
+            <p>Illuminating your world with handcrafted luxury candles.</p>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@csscandles.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Candle Street, Flame City, FC 12345</p>
+          </div>
+          <div class="footer-newsletter">
+            <h3>Stay Connected</h3>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <label for="newsletter-email">Email Address</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+              </div>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 CSS Candles. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+  </body>
+</html>
