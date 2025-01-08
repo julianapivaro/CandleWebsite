@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Candle Burning</title>
+    <meta name="author" content="Erandi, Julia, Juliana, Rohit">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/candles-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img src="images/candles-logo.png" alt="CSS Candles Logo" width="80" height="80">
+          </a>
+          <h1 class="store-name">Candle Burning</h1>
+        </div>
+        <nav class="main-nav">
+          <button class="mobile-menu" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--MAIN  -->
+    <main class="product-container">
+      <!-- Section with Video -->
+      <section class="product-section">
+        <video class="candle-video" autoplay muted loop>
+          <source src="images/candle-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+          <h2>Illuminate Your Moments</h2>
+          <div class="video-content">
+            <p class="video-tagline">Handcrafted with Love, Made to Glow</p>
+            <div class="video-features">
+              <div class="feature">
+                <span class="feature-highlight">100% Natural</span>
+                <span class="feature-text">Eco-friendly Ingredients</span>
+              </div>
+              <div class="feature">
+                <span class="feature-highlight">40+ Hours</span>
+                <span class="feature-text">Long-lasting Burn Time</span>
+              </div>
+              <div class="feature">
+                <span class="feature-highlight">Unique Scents</span>
+                <span class="feature-text">Carefully Curated</span>
+              </div>
+            </div>
+            <div class="video-cta">
+              <button class="shop-now-btn">Shop Now</button>
+              <p class="promo-text">Use code CSSPROJECT for 15% off your first order</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product Categories -->
+      <section id="collection" class="categories">
+        <h2>Our Collections</h2>
+        <div class="category-grid">
+          <div class="category-card">
+            <img src="images/scented-candles.png" alt="Scented Candles">
+            <h3>Scented Candles</h3>
+            <p>Luxurious fragrances for every mood</p>
+          </div>
+          <div class="category-card">
+            <img src="images/pillar-candles.png" alt="Pillar Candles">
+            <h3>Pillar Candles</h3>
+            <p>Classic elegance for any setting</p>
+          </div>
+          <div class="category-card">
+            <img src="images/soy-wax.png" alt="Soy Candles">
+            <h3>Soy Candles</h3>
+            <p>Eco-friendly and long-lasting</p>
+          </div>
+          <div class="category-card">
+            <img src="images/gift-set-candle.png" alt="Gift Sets">
+            <h3>Gift Sets</h3>
+            <p>Perfect for special occasions</p>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="images/lavenderdreams-candle.png" alt="Lavender Dreams Candle">
+            <div class="product-info">
+              <h3>Lavender Dreams</h3>
+              <div class="product-details">
+                <p>Size: 8 oz</p>
+                <p>Burn Time: 40 hours</p>
+                <p>Material: Soy Wax</p>
+              </div>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span>(124 reviews)</span>
+              </div>
+              <p class="price">$24.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/vanilla-bean-candle.png" alt="Vanilla Bean Candle">
+            <div class="product-info">
+              <h3>Vanilla Bean</h3>
+              <div class="product-details">
+                <p>Size: 12 oz</p>
+                <p>Burn Time: 60 hours</p>
+                <p>Material: Beeswax</p>
+              </div>
+              <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span>(89 reviews)</span>
+              </div>
+              <p class="price">$29.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/pumpkin-spice-candle.png" alt="Pumpkin Spice Candle">
+            <div class="product-info">
+              <h3>Pumpkin Spice</h3>
+              <div class="product-details">
+                <p>Size: 16 oz</p>
+                <p>Burn Time: 80 hours</p>
+                <p>Material: Coconut Wax</p>
+              </div>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span>(156 reviews)</span>
+              </div>
+              <p class="price">$34.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <div class="footer-about">
+            <h3>Canlde Burning</h3>
+            <p>Illuminating your world with handcrafted luxury candles.</p>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@csscandles.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Candle Street, Flame City, FC 12345</p>
+          </div>
+          <div class="footer-newsletter">
+            <h3>Stay Connected</h3>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <label for="newsletter-email">Email Address</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+              </div>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 CSS Candles. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
+  </body>
+</html>
